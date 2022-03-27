@@ -1,0 +1,22 @@
+p {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 24px 0 10px;
+}
+
+.loremText {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+  background-color: wheat;
+  border: 1px solid burlywood;
+  padding: 30px;
+}
+
+.cats {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}

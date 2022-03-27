@@ -1,0 +1,51 @@
+.slidingGalleryContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  min-height: 30px;
+}
+
+.slidingGalleryList {
+  display: flex;
+  flex: 1;
+  margin: 0;
+}
+
+.galleryItem {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-evenly;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.arrow {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  opacity: 0.85;
+  padding: 5px;
+  min-height: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.arrowLeft {
+  left: 0;
+}
+
+.arrowRight {
+  right: 0;
+}
+
+.inset {
+  margin: 0 60px;
+}
